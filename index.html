@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shilla Hotel</title>
+  
+<!-- 파비콘 연결 -->
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+<link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+<!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
+
+<!-- 아이콘 연결 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+<!-- swiper -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.css' integrity='sha512-ZOhNKDt0whrHDdUeNKjuq2C8hturzwCSuCfrOIMIfy9QDgpSqDEebdkGQXvXh1xHmZOHSelDBrTLj6XlqbHz6g==' crossorigin='anonymous'/>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js' integrity='sha512-J0i98QZsJc12MkNEyDbinrKKoe7Jiw0rtryAXBesZrVwRkaqgP9QNCPyo5sMZ2jfiJQb+9RIE4I3xNl8fFqQIA==' crossorigin='anonymous'></script>
+
+<!-- css링크연결 -->
+  <link rel="stylesheet" href="css/layout.css">
+
+<!--캘랜더cdn연결  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+
+<!-- js링크연결 -->
+  <script src="js/javascript.js" defer></script>
+
+</head>
+<body>
+  <div class="wrap">
+<!------------------------------------------------------------
+                        top button
+---------------------------------------------------------------->
+<button onclick="topFunction()" id="topBtn" title="Go to top" class="xi-arrow-up"></button>
+<!-------------------------------------------------------------
+                        top-pop
+--------------------------------------------------------------->
+    <div class="top-pop">
+      <div class="pop-text">
+        <p>코로나19관련 업데이트: 청결을위한 신라호텔의 약속및 새로운 취소정책과 여행지침을 확인하세요.</p>
+      </div>
+      <button id="pop-btn" class="on xi-angle-up" type="button"></button>
+    </div>
+
+<!-------------------------------------------------------------
+                            header
+--------------------------------------------------------------->
+    <header>
+      <div class="header-wrap">
+        <div class="logo">
+          <a href="#"></a>
+        </div>
+        <div class="header-right">
+          <div class="util">
+            <p class="xi-help-o">도움말</p>
+            <p class="xi-translate">한국어</p>
+            <p class="xi-briefcase">나의 예약</p>
+            <p class="xi-user-o">회원가입</p>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="sub-1.html">호텔신라 소개</a></li>
+              <li><a href="#"> 객실 </a></li>
+              <li><a href="#">다이닝</a></li>
+              <li><a href="#">웨딩 & 연회</a></li>
+              <li><a href="#">고객문의</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+<!-------------------------------------------------------------
+                            main-slide,rsv-wrap
+--------------------------------------------------------------->
+      <div class="swiper first-slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/main-1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/main-2.jpg" alt="" />>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+<!-----------------------rsv-wrap----------------------------->
+        <div id="rsv" class="absol">
+        <div id="calendar-menu" class="rsv-wrap">
+          <div class="rsv-location">
+            <p class="xi-maker">여행지</p>
+            <input class="rsv-input" type="search" placeholder="   어디로 떠나시겠어요?">
+          </div>
+          <div class="rsv-date">
+            <p class="xi-calendar">여행 날짜</p>
+            <div id="calendar-wrapper" class="p_rel">
+              <input id="calendar" class="calendar-input" name="dates"/>
+            </div>
+          </div>
+          <button><a href="">호텔찾기</a></button>
+        </div>
+      </div>
+
+      </div>
+<!-------------------------------------------------------------
+                    main-container:padding
+                  프로모션,레스토랑&bar
+--------------------------------------------------------------->
+    <div class="promotion-container">
+      <div class="promotion-top">
+        <p>
+          <span>추천 프로모션 & 패키지</span>
+          <button>더보기</button>
+        </p>
+        <div class="promotion-top-img-wrap">
+          <div class="promotion-top-img-1">
+            <img src="images/promo-1.jpg" alt="">
+            <h2>일상과 여행을 잇는 해택</h2>
+            <p>멤버쉽 해택 알아보기</p>
+          </div>
+          <div class="promotion-top-img-2">
+            <img src="images/promo-2.jpg" alt="">
+            <h2>Elevate & Enjoy-프리미엄 호캉스</h2>
+            <p>패키지 알아보기</p>
+          </div>
+          <div class="promotion-top-img-3">
+            <img src="images/promo-3.jpg" alt="">
+            <h2>호텔 로맨스 패키지</h2>
+            <p>패키지 알아보기</p>
+          </div>
+          <div class="promotion-top-img-4">
+            <img src="images/promo-4.jpg" alt="">
+            <h2>호텔 패밀리 패키지</h2>
+            <p>패키지 알아보기</p>
+          </div>
+        </div>
+      </div>
+
+      <!-----------promotion아래------------>
+      <div class="promotion-bottom">
+        <p>
+          <span>레스토랑 & bar </span>
+          <button>더보기</button>
+        </p>
+        <div class="promotion-bottom-img-wrap">
+          <div class="promotion-bottom-img-1">
+            <img src="images/promo-restu.jpg" alt="">
+            <h2>더 파크뷰</h2>
+          </div>
+          <div class="promotion-bottom-img-2">
+            <img src="images/promo-bar.jpg" alt="">
+            <h2>더 라이브러리</h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+<!-------------------------------------------------------------
+                            membership-wrap
+--------------------------------------------------------------->
+    <div class="membership-wrap">
+      <a href="#">
+        <div class="membership-text">
+          <h2>신라 리워즈</h2>
+          <p>무료로 신라 리워즈에 가입하고, 멤버요금, 포인트 적릭을 통한 <br> <br>
+          무료 숙박등 다양한 멤버 혜택을 누리세요.
+          </p>
+          <button class="resi-btn">가입하기</button>
+          <button class="login-btn">로그인</button>
+        </div>
+
+      </a>
+    </div>
+<!-------------------------------------------------------------
+                            contents-container
+--------------------------------------------------------------->
+    <div class="contents-container">
+      <div class="contents-slider-wrap">
+        <p>인기여행지</p>
+        <div class="swiper seconde-slide " id="swiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide2-1">
+              <p>신라호텔 <br> <br>
+              Seoul Shilla Hotel </p>
+            </div>
+            <div class="swiper-slide slide2-2">
+              <p>신라호텔 <br> <br>
+                Jeju Shilla Hotel</p>
+            </div>
+            <div class="swiper-slide slide2-3">
+              <p>신라스테이 <br> <br>
+                Busan Stay</p>
+            </div>
+            <div class="swiper-slide slide2-4">
+              <p>신라모노그램 <br> <br>
+                Da Nang Shilla Hotel</p>
+            </div>
+            <div class="swiper-slide slide2-7">
+              <p>신라스테이 <br> <br>
+                Haeundae Stay</p>
+            </div>
+            <div class="swiper-slide slide2-6">
+              <p>신라스테이 <br> <br>
+                Yeoksam Stay</p>
+            </div>
+            <div class="swiper-slide slide2-5">
+              <p>신라스테이 <br> <br>
+                Gwanghwamun Stay</p>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+
+<!--------------------인기패키지--------------------->
+
+      <div class="contebts-package-wrap">
+        <p>인기 패키지</p>
+        <div class="swiper thrid-slide " id="swiper3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide3-1">
+              <p>신라호텔 <br><br>
+              Jeju Apple Mango Bingsu</p>
+            </div>
+            <div class="swiper-slide slide3-2">
+              <p>신라호텔 <br><br>
+                영빈관 Wedding</p>
+            </div>
+            <div class="swiper-slide slide3-3">
+              <p>신라호텔 <br><br>
+                Shilla Wedding</p>
+            </div>
+            <div class="swiper-slide slide3-4">
+              <p>신라호텔 <br><br>
+                  The Parkview Shliia</p>
+            </div>
+            <div class="swiper-slide slide3-5">
+              <p>신라호텔 <br><br>
+                Camping Shilla</p>
+            </div>
+            <div class="swiper-slide slide3-6">
+              <p>신라호텔 <br><br>
+                Da Nang Shilla</p>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+<!-------------------------------------------------------------
+                            footer
+--------------------------------------------------------------->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-logo"></div>
+        <div class="footer-tel-wrap">
+          <div class="footer-tel-top">
+            <span>THE SHILLA</span>
+            <span>SHILLA MONOGRAM</span>
+            <span>SHILLA STAY</span>
+          </div>
+          <div class="footer-tel-bottom">
+            <div class="footer-tel-bottom-1">
+              <p>서울신라호텔 02-2233-3131 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제주신라호텔 064-735-5144 <br>
+              신라스테이&nbsp;&nbsp;&nbsp; 02-2230-0700 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;신라리워즈 &nbsp;&nbsp;&nbsp;02-2230-5528
+              </p>
+              <p>호텔신라 소개 &nbsp;| 고객문의 &nbsp;| 사이트맵 <br>
+              The shilla shop &nbsp;|삼성상품권
+              </p>
+            </div>
+            <div class="footer-tel-bottom-2">
+              <p>SNS</p>
+              <span class="xi-youtube-play"></span>
+              <span class="xi-instagram"></span>
+              <span class="xi-facebook"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="footer-bottom">
+        <div class="footer-bottom-1">
+          <span>신라워즈 약관 |</span>
+          <span>&nbsp;개인정보처리방침 |</span>
+          <span>&nbsp;이메일무단수집금지 |</span>
+          <span>&nbsp;윤리경영(부정제보) |</span>
+          <span>&nbsp;건축 시설물 안전관리</span>
+        </div>
+        <div class="footer-bottom-2">
+          <p> (주) 호텔신라 서울특별시 중구 동호로 249 (우 :04605) 대표이사 이부진 사업자등록번호 203-81-43363 통신판매신고번호 중구00272호</p>
+          <p>호스팅서비스제공자 삼성SDS(주) 서울객실예약 shilla.reserve@samsung.com 제주객실예약 jejushilla@samsung.com</p>
+          <p>&COPY; HOTEL SHILLA CO.LTD. All Rights Reserved</p>
+        </div>
+      </div>
+
+
+
+
+    </footer>
+
+
+  </div>
+</body>
+</html>
