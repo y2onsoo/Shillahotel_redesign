@@ -1,5 +1,12 @@
 @import url(../css/reset.css);
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('../font/Noto_Sans_KR/NotoSansKR-Regular.woff') format('woff');
+}
 
+* {
+  font-family: 'Noto Sans KR';
+}
 /********************************************
                 top-button
 ********************************************/
