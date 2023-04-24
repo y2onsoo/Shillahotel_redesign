@@ -24,7 +24,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js' integrity='sha512-J0i98QZsJc12MkNEyDbinrKKoe7Jiw0rtryAXBesZrVwRkaqgP9QNCPyo5sMZ2jfiJQb+9RIE4I3xNl8fFqQIA==' crossorigin='anonymous'></script>
 
 <!-- css링크연결 -->
-  <link rel="stylesheet" href="css/sub-1.css">
+  <link rel="stylesheet" href="css/sub-2.css">
 
 <!--캘랜더cdn연결  -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
@@ -33,7 +33,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 
 <!-- js링크연결 -->
-  <script src="js/sub-1.js" defer></script>
+  <script src="js/sub-2.js" defer></script>
 
 </head>
 <body>
@@ -75,97 +75,105 @@
         </div>
       </div>
     </header>
-  <!----------------------------------------------------------------
-                          메뉴-1 호텔신라 소개
+<!----------------------------------------------------------------
+  ----------------------------------------------------------------
+  ----------------------------------------------------------------
+                          메뉴-2 호텔신라 객실소개
+----------------------------------------------------------------
+----------------------------------------------------------------
 --------------------------------------------------------------->
-    <div class="room-wrap">
-      <div class="room-container">
-        <div class="room-nav">
-          <h2>소개</h2>
-          <ul class="gnb">
-            <li><a href="#">서울신라호텔소개</a></li>
-            <li><a href="#">호텔정보</a></li>
-            <li><a href="#">층별안내도</a></li>
-            <li><a href="#">오시는길</a></li>
+<div class="sub-2-container">
+  <div class="sub-2-wrap">
+    <!--sub-2 nav-->
+    <div class="sub-2-nav">
+      <h1>객실</h1>
+      <ul class="sub2-gnb">
+        <li><a href="#">스탠다드</a>
+          <ul class="sub2-sub">
+            <li><a href="#">디럭스</a></li>
+            <li><a href="#">비즈니스 디럭스</a></li>
+            <li><a href="#">배리어프리 비즈니스 디럭스</a></li>
+            <li><a href="#">그랜드 코너 디럭스</a></li>
           </ul>
+        </li>
+        <li><a href="#">이그제큐티브</a>
+          <ul class="sub2-sub">
+            <li><a href="#">이그제티브 비즈니스 디럭스</a></li>
+            <li><a href="#">이그제티브 그랜드 디럭스</a></li>
+          </ul>
+        </li>
+        <li><a href="#">스위트</a>
+          <ul class="sub2-sub">
+            <li><a href="#">수페리어 스위트</a></li>
+            <li><a href="#">코리안 스위트</a></li>
+            <li><a href="#">코너 스위트</a></li>
+            <li><a href="#">프리미어 스위트</a></li>
+            <li><a href="#">로열 스위트</a></li>
+            <li><a href="#">신라 스위트</a></li>
+            <li><a href="#">프레지덴셜 스위트</a></li>
+          </ul>
+        </li>
+        <li><a href="#">더 이그제큐티브 라운지</a></li>
+      </ul>
+      <div class="nav-button">전체 객실 보기</div>
+    </div>
+
+
+    <!--sub-2 contents-wrap-->
+    <div class="sub-2-contents-wrap">
+      <!--contents 슬라이드위에 글-->
+      <div class="sub-2-contents-text">
+        <h2>디럭스</h2>
+        <p>
+          <i class="fa-solid fa-house"></i>
+          <span> > 객실 ></span>
+          <span> 스탠다드 ></span>
+          <span> 디럭스</span>
+        </p>
+      </div>
+
+      <!--swiper slider-->
+    <div style="--swiper-navigation-color: #3e2b2c; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/sub2-slide-max-1.jpg" />
         </div>
-        <div class="sub-info-wrap">
-          <!--서울신라호텔 소개-->
-          <div class="sub-info sub-info-1">
-            <div class="sub-info-1-text">
-            <h2>서울신라호텔 소개</h2>
-            <p>
-              <i class="fa-solid fa-house"></i>
-              <span>> introduction ></span>
-              <span> <a href="#">About The Shilla Seoul</a> </span>
-            </p>
-          </div>
-            <div class="sub-info-1-img">
-              <div class="sub-info-sns-wrap">
-                <i class="sub-icon fa-brands fa-instagram"></i>
-                <i class="sub-icon fa-brands fa-facebook"></i>
-                <i class="sub-icon fa-brands fa-square-twitter"></i>
-              </div>
-            </div>
-          </div>
-
-          <!--호텔정보-->
-          <div class="sub-info sub-info-2">
-            <div class="sub-info-2-text">
-              <h2>호텔정보</h2>
-              <p>
-                <i class="fa-solid fa-house"></i>
-                <span>> 소개 ></span>
-                <span> <a href="#">호텔정보</a> </span>
-              </p>
-            </div>
-              <div class="sub-info-2-img">
-                <div class="sub-info-sns-wrap">
-                  <i class="sub-icon fa-brands fa-instagram"></i>
-                  <i class="sub-icon fa-brands fa-facebook"></i>
-                  <i class="sub-icon fa-brands fa-square-twitter"></i>
-                </div>
-              </div>
-          </div>
-
-          <!-- 층별안내도 -->
-          <div class="sub-info sub-info-3">
-            <div class="sub-info-3-text">
-              <h2>층별안내도</h2>
-              <p>
-                <i class="fa-solid fa-house"></i>
-                <span>> introduction ></span>
-                <span> <a href="#">층별안내도</a> </span>
-              </p>
-            </div>
-            <div class="sub-info-3-img">
-            </div>
-          </div>
-
-          <!-- 오시는길 -->
-          <div class="sub-info sub-info-4">
-            <div class="sub-info-4-text">
-              <h2>오시는길</h2>
-              <p>
-                <i class="fa-solid fa-house"></i>
-                <span>> introduction ></span>
-                <span> <a href="#">오시는길</a> </span>
-              </p>
-            </div>
-              <div class="sub-info-4-img">
-                <div class="sub-info-4-map">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.9641833707997!2d127.00267597638042!3d37.55590762473672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2ed7f0d9e75%3A0x49ec999d2ee31371!2z7ISc7Jq47Iug65287Zi47YWU!5e0!3m2!1sko!2skr!4v1682304806821!5m2!1sko!2skr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="sub-info-4-map-text">
-
-                </div>
-              </div>
-          </div>
-
-
+        <div class="swiper-slide">
+          <img src="images/sub2-slide-max-2.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/sub2-slide-max-3.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/sub2-slide-max-4.jpg" />
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div thumbsSlider="" class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/sub2-slide-min-1.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/sub2-slide-min-2.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/sub2-slide-min-3.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/sub2-slide-min-4.jpg" />
         </div>
       </div>
     </div>
+
+  
+
+  </div>
+
+  </div>
+</div>
 
 
 
