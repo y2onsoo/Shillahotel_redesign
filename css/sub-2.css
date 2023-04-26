@@ -160,7 +160,7 @@ nav li {
 .sub-2-container .sub-2-wrap{
   display: flex;
   justify-content: space-between;
-  background-color: #e0d0d0;
+  /* background-color: #e0d0d0; */
   width: 100%;
   height: 1000px;
   flex-flow: wrap;
@@ -335,12 +335,92 @@ nav li {
   width: 50%;
   background-image: url(../images/room-text.jpg);
   background-repeat: no-repeat;
+  position: relative;
 }
-
+.sub2-bottom-text .bottom-text-1 button{
+  width: 150px;
+  height: 40px;
+  background-color:#836644;
+  border: none;
+  position: absolute;
+  top: 55%;
+  left: 10px;
+  color: #fff;
+  font-weight: 550;
+  border-radius: 5px;
+}
 
 .sub2-bottom-text .bottom-text-2{
   width: 50%;
+  padding: 10px;
 }
+
+.sub2-bottom-text .bottom-text-2 .button-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.sub2-bottom-text .bottom-text-2 .button-wrap .button-1{
+  border: none;
+  width: 150px;
+  height: 50px;
+  background-color: #836644;
+  color:#fff;
+  font-weight: 550;
+  border-radius: 5px;
+}
+.sub2-bottom-text .bottom-text-2 .button-wrap .button-2{
+  border: none;
+  width: 150px;
+  height: 50px;
+  background-color:#826B51;
+  color:#fff;
+  font-weight: 550;
+  border-radius: 5px;
+}
+.sub2-bottom-text .bottom-text-2 .button-wrap .button-3{
+  border: none;
+  width: 150px;
+  height: 50px;
+  background-color:#3A3125;
+  color:#fff;
+  font-weight: 550;
+  border-radius: 5px;
+}
+.sub2-bottom-text .bottom-text-2 .package-wrap{
+  margin-top: 30px;
+  padding: 0 10px;
+  position: relative;
+}
+.sub2-bottom-text .bottom-text-2 .package-wrap h2{
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #333;
+  margin-bottom: 20px;
+  /* margin-left: 70px; */
+}
+.sub2-bottom-text .bottom-text-2 .package-wrap .package-img{
+  background-image: url(../images/sub-2\ mini.jpg);
+  width: 400px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sub2-bottom-text .bottom-text-2 .package-wrap .package-bg{
+  width: 400px;
+  height: 70px;
+  background-color:#33333362;
+  position: absolute;
+  bottom: 0;
+}
+.sub2-bottom-text .bottom-text-2 .package-wrap .package-bg p{
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color:#fff;
+}
+
 
 
 

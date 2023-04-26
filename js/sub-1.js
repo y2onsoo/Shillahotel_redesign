@@ -40,16 +40,16 @@ $("#category li").click(function (e) {
     </div>
   </div>`);
   } else if (gubun == 1) {
-    $("#category_main").append(`<div class="sub-info sub-info-2">
-    <div class="sub-info-2-text">
-      <h2>호텔정보</h2>
+    $("#category_main").append(`<div class="sub-info sub-info-1">
+    <div class="sub-info-1-text">
+      <h2>서울신라호텔 소개</h2>
       <p>
         <i class="fa-solid fa-house"></i>
-        <span>> 소개 ></span>
-        <span> <a href="#">호텔정보</a> </span>
+        <span>> introduction ></span>
+        <span> <a href="#">About The Shilla Seoul</a> </span>
       </p>
     </div>
-    <div class="sub-info-2-img">
+    <div class="sub-info-1-img">
       <div class="sub-info-sns-wrap">
         <i class="sub-icon fa-brands fa-instagram"></i>
         <i class="sub-icon fa-brands fa-facebook"></i>
@@ -57,6 +57,23 @@ $("#category li").click(function (e) {
       </div>
     </div>
   </div>`);
+  // <div class="sub-info sub-info-2">
+  //   <div class="sub-info-2-text">
+  //     <h2>호텔정보</h2>
+  //     <p>
+  //       <i class="fa-solid fa-house"></i>
+  //       <span>> 소개 ></span>
+  //       <span> <a href="#">호텔정보</a> </span>
+  //     </p>
+  //   </div>
+  //   <div class="sub-info-2-img">
+  //     <div class="sub-info-sns-wrap">
+  //       <i class="sub-icon fa-brands fa-instagram"></i>
+  //       <i class="sub-icon fa-brands fa-facebook"></i>
+  //       <i class="sub-icon fa-brands fa-square-twitter"></i>
+  //     </div>
+  //   </div>
+  // </div>
   } else if (gubun == 2) {
     $("#category_main").append(`<div class="sub-info sub-info-3">
     <div class="sub-info-3-text">
