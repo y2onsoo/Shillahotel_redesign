@@ -349,6 +349,7 @@ nav li {
   color: #fff;
   font-weight: 550;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .sub2-bottom-text .bottom-text-2{
@@ -368,6 +369,7 @@ nav li {
   color:#fff;
   font-weight: 550;
   border-radius: 5px;
+  cursor: pointer;
 }
 .sub2-bottom-text .bottom-text-2 .button-wrap .button-2{
   border: none;
@@ -377,6 +379,7 @@ nav li {
   color:#fff;
   font-weight: 550;
   border-radius: 5px;
+  cursor: pointer;
 }
 .sub2-bottom-text .bottom-text-2 .button-wrap .button-3{
   border: none;
@@ -386,6 +389,7 @@ nav li {
   color:#fff;
   font-weight: 550;
   border-radius: 5px;
+  cursor: pointer;
 }
 .sub2-bottom-text .bottom-text-2 .package-wrap{
   margin-top: 30px;
@@ -406,6 +410,7 @@ nav li {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
 .sub2-bottom-text .bottom-text-2 .package-wrap .package-bg{
   width: 400px;
