@@ -143,6 +143,11 @@ nav>ul>li{
   color: #333;
 }
 
+nav>ul>li i{
+  font-size: 10px;
+  margin-right: 5px;
+  color: #291d1d;
+}
 
 nav > ul > a{
   display: block;
@@ -247,6 +252,11 @@ nav li {
   border-radius: 30px;
 }
 
+.rsv-wrap button:hover{
+  background-color:#F2E2C4;
+  color: #000;
+  border: 0.5px solid #333;
+}
 
 .fixed{
   position: fixed;

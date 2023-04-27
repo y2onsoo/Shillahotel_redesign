@@ -133,6 +133,20 @@ nav>ul>li{
   color: #333;
 }
 
+nav>ul>li i{
+  font-size: 10px;
+  margin-right: 5px;
+  color: #291d1d;
+}
+.first i,
+.second i,
+ .thrid i,
+ .fourth i{
+  font-size: 10px;
+  margin-right: 5px;
+  color: #291d1d;
+ }
+
 
 nav > ul > a{
   display: block;
