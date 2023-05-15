@@ -51,6 +51,10 @@ var swiper2 = new Swiper(".seconde-slide", {
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
+    275:{
+      slidesPerView: 1,  
+      spaceBetween: 20,
+    },
     450: {
       slidesPerView: 1,  //브라우저가 768보다 클 때
       spaceBetween: 20,
@@ -82,8 +86,12 @@ var swiper2 = new Swiper(".thrid-slide", {
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
+    275:{
+      slidesPerView: 1,  
+      spaceBetween: 20,
+    },
     450: {
-      slidesPerView: 1,  //브라우저가 768보다 클 때
+      slidesPerView: 1,  
       spaceBetween: 20,
     },   
     768: {
