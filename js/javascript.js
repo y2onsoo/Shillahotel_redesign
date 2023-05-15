@@ -50,6 +50,27 @@ var swiper2 = new Swiper(".seconde-slide", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    450: {
+      slidesPerView: 1,  //브라우저가 768보다 클 때
+      spaceBetween: 20,
+    },   
+    768: {
+      slidesPerView: 3,  //브라우저가 768보다 클 때
+      spaceBetween: 40,
+    },
+    1100: {
+      slidesPerView: 5,  //브라우저가 1024보다 클 때
+      spaceBetween: 30,
+    },
+  },
+
+
+
+
+
+
+
 });
 
 ////////////슬라이드 3번째
@@ -59,6 +80,20 @@ var swiper2 = new Swiper(".thrid-slide", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    450: {
+      slidesPerView: 1,  //브라우저가 768보다 클 때
+      spaceBetween: 20,
+    },   
+    768: {
+      slidesPerView: 3,  //브라우저가 768보다 클 때
+      spaceBetween: 40,
+    },
+    1100: {
+      slidesPerView: 5,  //브라우저가 1024보다 클 때
+      spaceBetween: 30,
+    },
   },
 });
 
